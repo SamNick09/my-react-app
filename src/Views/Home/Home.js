@@ -14,9 +14,15 @@ export default function Home() {
       <p>Home</p>
       
       <div className="box" > Box </div>
+        
+        
+
+       <div className="box2" >
+        <span className="letraBox">Box</span>
+          </div>
 
       <img
-        src={'https://imagizer.imageshack.com/img538/9889/xlMaV6.jpg'}
+        src={'https://imagizer.imageshack.com/img673/1086/RqG2zh.jpg'}
         className="imageclass"
       /> 
 
