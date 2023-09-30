@@ -19,63 +19,65 @@ Verdana
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 10px
-  
+  gap: 50px;
 }
 
-  .tarjeta-personaje {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    flex-wrap: nowrap;
-    border: 1px solid gray;
-    box-shadow: 10px 5px 5px red;
-    cursor: pointer;
-    width: 300px;
-  }
-  .tarjeta-personaje:hover {
-    box-shadow: 10px 5px 5px green;
-  }
+.tarjeta-personaje {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: nowrap;
+  border: 13px solid rgb(76, 192, 196);
+  box-shadow: 10px 5px 5px rgb(101, 212, 226);
+  cursor: pointer;
+  width: 350px;
+}
+.tarjeta-personaje:hover {
+  box-shadow: 10px 5px 5px rgba(162, 225, 255, 0.795);
+}
 
-    .lado-izquierdo {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: red;
-      
-    }
-      .personaje-imagen {
-        height: 200px;
-        width: 100px;
-        object-fit: cover;
-      }
+.lado-izquierdo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+.personaje-imagen {
+  height: 200px;
+  width: 100px;
+  object-fit: cover;
+}
 
-    .lado-derecho {
-      display: flex; 
-      flex-direction: column;
-    }
-      .personaje-nombre {
-        font-family: Verdana;
-      }
-      .personaje-apodo {
-        font-family: Helvetica;
-      }
-      .personaje-ocupacion {
-        font-family: Impact;
-      }
+.lado-derecho {
+  display: flex;
+  flex-direction: column;
+}
+.personaje-nombre {
+  font-family: sans-serif;
+  background-color: aquamarine;
+}
+.personaje-apodo {
+  font-family: Arial;
+}
+.personaje-ocupacion {
+  font-family: Impact;
+}
 
-      .contenedor-fecha-nacionalidad {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+.contenedor-fecha-nacionalidad {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  justify-content: space-between;
+  align-items: center;
+}
 
-        .personaje-nacionalidad {
-          font-family: Garamond;
-          font-size: 20px;
-          font-weight: 700;
-        }
-        .personaje-fecha {
-          font-family: Impact;
-          font-size: 15px;
-        }
+.personaje-nacionalidad {
+  font-family: Garamond;
+  font-size: 20px;
+  font-weight: 700;
+}
+.personaje-fecha {
+  font-family: Impact;
+  font-size: 15px;
+}
